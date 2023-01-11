@@ -1,7 +1,8 @@
-import React from 'react';
-import './App.css';
+import './App.css'
+import Cube from './puzzles3d/Cube'
 
 function App() {
+
   return (
     <>
       <div className="navbar-top">
@@ -71,8 +72,9 @@ function App() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen>
       </iframe>
+      <Cube />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
