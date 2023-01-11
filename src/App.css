@@ -1,70 +1,84 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-top {
-    margin-left: 51px;
+    margin-left: 72px;
     display: flex;
     flex-wrap: wrap;
     transform: skew(-20deg);
-    height: 36px;
-    width: 36px;
+    height: 51px;
+    width: 51px;
+    background-color: red
 }
 
 .navbar-side {
     display: flex;
     flex-wrap: wrap;
-    height: 36px;
-    width: 36px;
+    height: 51px;
+    width: 51px;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     width: 120%;
-    background-color: green;
+    background-color: red;
     transform: skew(-20deg);
     padding-left: 20px;
     margin-left: -20px;
 }
 
+.margin-left {
+    margin-left: 3px;
+}
+
 .navbar-bottom {
-    margin-left: 25px;
+    margin-left: 36px;
     display: flex;
     flex-wrap: wrap;
     transform: skew(-20deg);
-    height: 36px;
-    width: 36px;
+    height: 51px;
+    width: 51px;
+    background-color: red;
 }
 
 .icon {
     box-sizing: border-box;
-    height: 36px;
-    width: 36px;
-    margin: 2px;
+    height: 51px;
+    width: 51px;
+    margin: 3px;
 }
 
+/* face: 51 px */
 .square {
-    height: 10px;
-    width: 10px;
-    border: 1px solid black;
-    border-radius: 2px;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 1px;
 }
 
 .red {
-    background-color: red;
+    background-color: #b71234;
 }
 
 .orange {
-    background-color: orange;
+    background-color: #ff5800;
 }
 
 .green {
-    background-color: green;
+    background-color: #009b48;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #0046ad;
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #ffd500;
 }
 
 .white {
