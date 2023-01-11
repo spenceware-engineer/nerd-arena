@@ -1,39 +1,72 @@
-.App {
-  text-align: center;
+.navbar-top {
+    margin-left: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: skew(-20deg);
+    height: 36px;
+    width: 36px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-side {
+    display: flex;
+    flex-wrap: wrap;
+    height: 36px;
+    width: 36px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 120%;
+    background-color: green;
+    transform: skew(-20deg);
+    padding-left: 20px;
+    margin-left: -20px;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-bottom {
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: skew(-20deg);
+    height: 36px;
+    width: 36px;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.icon {
+    box-sizing: border-box;
+    height: 36px;
+    width: 36px;
+    margin: 2px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.square {
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
 }
