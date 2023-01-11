@@ -1,5 +1,5 @@
 import './App.css'
-import Cube from './puzzles3d/Cube'
+import Cube from './ThreeDee/Cube'
 
 function App() {
 
