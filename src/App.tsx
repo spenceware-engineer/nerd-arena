@@ -1,6 +1,5 @@
 import './App.css'
 import Auth from './Auth/Auth'
-// import Cube from './ThreeDee/Cube'
 
 function App() {
 
@@ -17,7 +16,6 @@ function App() {
         <div className="square red"></div>
         <div className="square blue"></div>
       </div>
-      {/* <button><Link to='/auth'>Sign In / Sign Up</Link></button> */}
       <div className="navbar">
         <div className="navbar-side">
           <div className="square white"></div>
