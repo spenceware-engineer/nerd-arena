@@ -1,5 +1,6 @@
 import './App.css'
-import Cube from './ThreeDee/Cube'
+import Auth from './Auth/Auth'
+// import Cube from './ThreeDee/Cube'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <div className="square red"></div>
         <div className="square blue"></div>
       </div>
+      {/* <button><Link to='/auth'>Sign In / Sign Up</Link></button> */}
       <div className="navbar">
         <div className="navbar-side">
           <div className="square white"></div>
@@ -68,11 +70,10 @@ function App() {
         height="315"
         src="https://www.youtube.com/embed/NevGDFBfQGw"
         title="YouTube video player"
-        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen>
       </iframe>
-      <Cube />
+      <Auth />
     </>
   )
 }
