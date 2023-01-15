@@ -1,87 +1,88 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .navbar-top {
-    margin-left: 72px;
-    display: flex;
-    flex-wrap: wrap;
-    transform: skew(-20deg);
-    height: 51px;
-    width: 51px;
-    background-color: red;
+  margin-left: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  transform: skew(-20deg);
+  height: 51px;
+  width: 51px;
+  background-color: cyan;
 }
 
 .navbar-side {
-    display: flex;
-    flex-wrap: wrap;
-    height: 51px;
-    width: 51px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 51px;
+  width: 51px;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    width: 120%;
-    background-color: red;
-    transform: skew(-20deg);
-    padding-left: 20px;
-    margin-left: -20px;
+  display: flex;
+  align-items: center;
+  width: 120%;
+  background-color: cyan;
+  transform: skew(-20deg);
+  padding-left: 20px;
+  margin-left: -20px;
 }
 
 .margin-left {
-    margin-left: 3px;
+  margin-left: 3px;
 }
 
 .navbar-bottom {
-    margin-left: 36px;
-    display: flex;
-    flex-wrap: wrap;
-    transform: skew(-20deg);
-    height: 51px;
-    width: 51px;
-    background-color: silver;
+  margin-left: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  transform: skew(-20deg);
+  height: 51px;
+  width: 51px;
+  background-color: silver;
 }
 
 .icon {
-    box-sizing: border-box;
-    height: 51px;
-    width: 51px;
-    margin: 3px;
+  box-sizing: border-box;
+  height: 51px;
+  width: 51px;
+  margin: 3px;
 }
 
 /* face: 51 px */
 .square {
-    height: 15px;
-    width: 15px;
-    border-radius: 3px;
-    box-sizing: border-box;
-    margin: 1px;
+  height: 15px;
+  width: 15px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 1px;
 }
 
 .red {
-    background-color: #b71234;
+  background-color: #b71234;
 }
 
 .orange {
-    background-color: #ff5800;
+  background-color: #ff5800;
 }
 
 .green {
-    background-color: #009b48;
+  background-color: #009b48;
 }
 
 .blue {
-    background-color: #0046ad;
+  background-color: #0046ad;
 }
 
 .yellow {
-    background-color: #ffd500;
+  background-color: #ffd500;
 }
 
 .white {
-    background-color: white;
+  background-color: white;
 }
