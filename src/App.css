@@ -12,7 +12,7 @@ body {
   transform: skew(-20deg);
   height: 51px;
   width: 51px;
-  background-color: red;
+  background-color: cyan;
 }
 
 .navbar-side {
@@ -26,7 +26,7 @@ body {
   display: flex;
   align-items: center;
   width: 120%;
-  background-color: skyblue;
+  background-color: cyan;
   transform: skew(-20deg);
   padding-left: 20px;
   margin-left: -20px;
@@ -58,6 +58,7 @@ body {
   height: 15px;
   width: 15px;
   border-radius: 3px;
+  border: 1px solid black;
   box-sizing: border-box;
   margin: 1px;
 }
