@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 120%;
+  background-color: cyan;
+  transform: skew(-20deg);
+  padding-left: 20px;
+  margin-left: -20px;
+}
+
+.icon {
+  box-sizing: border-box;
+  height: 51px;
+  width: 51px;
+  margin: 3px;
+}
