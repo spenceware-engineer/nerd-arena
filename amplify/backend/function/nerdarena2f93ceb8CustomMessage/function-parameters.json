@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "nerdarena2f93ceb8",
+  "functionName": "nerdarena2f93ceb8CustomMessage",
+  "resourceName": "nerdarena2f93ceb8CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "nerdarena2f93ceb8CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "",
+  "EMAILSUBJECT": "Confirm Your Email for Nerd Arena!",
+  "EMAILMESSAGE": "",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

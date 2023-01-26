@@ -27,3 +27,10 @@ export interface FieldProps {
   touchedError: string
   show: boolean
 }
+
+export type AuthType = 'login' | 'signup'
+
+export interface SwitchAuthProps {
+  authType: AuthType
+  changeType: () => void
+}

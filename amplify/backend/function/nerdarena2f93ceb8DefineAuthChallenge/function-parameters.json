@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-define-challenge"
+  ],
+  "parentResource": "nerdarena2f93ceb8",
+  "functionName": "nerdarena2f93ceb8DefineAuthChallenge",
+  "resourceName": "nerdarena2f93ceb8DefineAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/DefineAuthChallenge",
+  "triggerTemplate": "DefineAuthChallenge.json.ejs",
+  "triggerEventPath": "DefineAuthChallenge.event.json",
+  "roleName": "nerdarena2f93ceb8DefineAuthChallenge",
+  "skipEdit": true,
+  "enableCors": false
+}

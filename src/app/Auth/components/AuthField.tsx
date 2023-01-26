@@ -1,5 +1,5 @@
 import { Field, ErrorMessage } from 'formik'
-import { FieldProps } from '../../types/auth.types'
+import { FieldProps } from '../../../types/auth.types'
 
 const AuthField = ({
   fieldInfo,

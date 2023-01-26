@@ -1,0 +1,43 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nerdarena-dev-193248-authRole",
+      "UnauthRoleArn": "arn:aws:iam::435339389592:role/amplify-nerdarena-dev-193248-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::435339389592:role/amplify-nerdarena-dev-193248-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-nerdarena-dev-193248-deployment",
+      "UnauthRoleName": "amplify-nerdarena-dev-193248-unauthRole",
+      "StackName": "amplify-nerdarena-dev-193248",
+      "StackId": "arn:aws:cloudformation:us-east-2:435339389592:stack/amplify-nerdarena-dev-193248/a69d88c0-9b7e-11ed-9540-0a49eeb41f8e",
+      "AmplifyAppId": "drnexckyo7qv",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-nerdarena-dev-193248-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "nerdarena2f93ceb8": {}
+      },
+      "function": {
+        "nerdarena2f93ceb8DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-nerdarena-dev-193248-deployment",
+          "s3Key": "amplify-builds/nerdarena2f93ceb8DefineAuthChallenge-397a705968446a474563-build.zip"
+        },
+        "nerdarena2f93ceb8CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-nerdarena-dev-193248-deployment",
+          "s3Key": "amplify-builds/nerdarena2f93ceb8CreateAuthChallenge-6c454852536d674c3878-build.zip"
+        },
+        "nerdarena2f93ceb8VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "",
+          "deploymentBucketName": "amplify-nerdarena-dev-193248-deployment",
+          "s3Key": "amplify-builds/nerdarena2f93ceb8VerifyAuthChallengeResponse-414f78624b7654745675-build.zip"
+        },
+        "nerdarena2f93ceb8CustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "Confirm Your Email for Nerd Arena!",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-nerdarena-dev-193248-deployment",
+          "s3Key": "amplify-builds/nerdarena2f93ceb8CustomMessage-547a466849794367616c-build.zip"
+        }
+      }
+    }
+  }
+}

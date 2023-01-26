@@ -1,6 +1,6 @@
 // Render Prop
 import React, { useState } from 'react'
-import { Formik, Form, Field, ErrorMessage } from 'formik'
+import { Formik, Form } from 'formik'
 import { validateClanId, validateConfirmPassword, validateEmail, validateName, validatePassword, validateUsernameEmail } from './validations'
 import {
   AuthFields,
@@ -13,7 +13,8 @@ import {
   usernameEmail
 } from '../../constants/auth.consts'
 import { AuthFormValues } from '../../types/auth.types'
-import AuthField from './AuthField'
+import AuthField from './components/AuthField'
+import styled from 'styled-components'
 
 interface AuthFormErrors {
   clanId?: string
@@ -24,6 +25,13 @@ interface AuthFormErrors {
   username?: string
   usernameEmail?: string
 }
+
+const Container = styled.div`
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+`
 
 const Auth = () => {
   const [ login, setLogin ] = useState<boolean>(true)
@@ -44,9 +52,11 @@ const Auth = () => {
   }
 
   return (
-    <div>
-      <button onClick={() => setLogin(true)}>Log In</button>
-      <button onClick={() => setLogin(false)}>Sign Up</button>
+    <Container>
+      <div>
+        <button onClick={() => setLogin(true)}>Log In</button>
+        <button onClick={() => setLogin(false)}>Sign Up</button>
+      </div>
       <Formik
         initialValues={initialValues}
         validate={validate}
@@ -72,7 +82,7 @@ const Auth = () => {
           </Form>
         )}
       </Formik>
-    </div>
+    </Container>
   )
 }
 
