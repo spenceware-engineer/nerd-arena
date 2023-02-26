@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path='/*' element={<Placeholder text='Route: /' />} />
+        <Route path='/mix' element={<Placeholder text='Route: /mix' />} />
+        <Route path='/rec-time' element={<Placeholder text='Route: /rec-time' />} />
+        <Route path='/profile' element={<Placeholder text='Route: /profile' />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+interface PlaceholderProps {
+  text: string
+}
+
+const Placeholder = ({ text }: PlaceholderProps) => {
+  return (
+    <p>PLACEHOLDER <strong>{text}</strong></p>)
+}
+
+export default App
