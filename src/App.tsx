@@ -1,27 +1,24 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Time from './pages/Time'
 import './App.css'
+import Profile from './pages/Profile'
+import Auth from './pages/Auth'
+import LeaderBoard from './pages/LeaderBoard'
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/*' element={<Placeholder text='Route: /' />} />
-        <Route path='/mix' element={<Placeholder text='Route: /mix' />} />
-        <Route path='/rec-time' element={<Placeholder text='Route: /rec-time' />} />
-        <Route path='/profile' element={<Placeholder text='Route: /profile' />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/time' element={<Time />} />
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/signin' element={<Auth />} />
+        <Route path='/signup' element={<Auth />} />
+        <Route path='/leaders' element={<LeaderBoard />} />
       </Routes>
     </BrowserRouter>
   )
-}
-
-interface PlaceholderProps {
-  text: string
-}
-
-const Placeholder = ({ text }: PlaceholderProps) => {
-  return (
-    <p>PLACEHOLDER <strong>{text}</strong></p>)
 }
 
 export default App
